@@ -2,3 +2,9 @@ strong{
     color: white;
     font-weight: lighter;
 }
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+.font-unbounded {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 17px;
+  }
