@@ -4,7 +4,31 @@ strong{
 }
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 
+/*formatando as cores pricipais do app*/
 .font-unbounded {
     font-family: 'Unbounded', sans-serif;
     font-size: 17px;
   }
+:root{
+    --color-controlcash :#20B29B;
+}
+.bg-verde{
+    background-color:var(--color-controlcash);
+}
+.text-verde{
+    color:var(--color-controlcash);
+}
+.card-clip {
+    clip-path: polygon(
+        0% 12px,
+        12px 0%,
+        calc(100% - 12px) 0%,
+        100% 12px,
+        100% calc(100% - 12px),
+        calc(100% - 12px) 100%,
+        12px 100%,
+        0% calc(100% - 12px)
+    );
+}
+
+
